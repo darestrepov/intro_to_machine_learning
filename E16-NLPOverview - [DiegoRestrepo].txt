@@ -1,0 +1,19 @@
+# E14 - Natural Language Processing Overview
+
+Catalyst - Cognitive Contact Center
+everis - Telefónica
+
+Para los operadores de telefonía, internet y televisión, la experiencia de sus clientes es la base del éxito de su negocio. Y es su primer canal de comunicación con los usuarios un factor de vital importancia al momento de definir qué tan bien se siente un usuario con el servicio que recibe. Adicionalmente, un contact Center es el canal de recepción de fallas en la red, que permite tomar acciones de mejora para mitigar los efectos en la actividad de los usuarios.
+
+Sin embargo, a pesar de los continuos esfuerzos de todas las operadores por generar canales de comunicación profesionalizados, que optimicen los procesos y mejoren la imagen del cliente, es uno de los problemas de mayor impacto en los rendimientos de las compañías. Los costos de su operación son grandes, y no generan los resultados esperados a partir de la interacción con el cliente.
+
+Pensando en esto, everis Global, en alianza con Telefónica han implementado un sistema de aprendizaje cognitivo para los sistemas de contact center de la compañía a nivel mundial, Catalyst. Un proyecto innovador basado en AI que ya hace parte de las estructuras propuestas por el TMForum como base de las nuevas implementaciones tecnológicas para el sector Telecom.
+
+La arquitectura básica del Catalyst inicia en el Contact Center, cuando un usuario hace una llamada para establecer comunicación con el operador. Entonces, se aplican algoritmos de reconocimiento de voz y Text to Speech para materializar el mensaje del cliente en cadenas de texto analizables. La capa de procesamiento de información la provee un sistema integrado de everis Global, que se basa en 3 elementos:
+
+- Broker: Product eVA de everis (asistente virtual inteligente), contiene la lógica para orquestar una conversación de manera apropiada, identificar el problema o inquietud del cliente y asociarle una posible solución basada en las palabras clave identificadas por algoritmos de NLP.
+- Cognitive Services: Interacción de los conceptos identificados por el Broker en la conversación, con los sistemas de información y aplicación de reglas de negocio de la compañía. Por ejemplo, si el cliente está  preguntando por el plan de roaming más conveniento para una estadía fuera del país, el Broker hace preguntas en busca de información para el modelo (Número de días, país de destino, tipo de actividad de red requerida, etc.) y el CS evalúa estas condiciones dentro de la base de datos de planes roaming incluyendo el tipo de usuario, su actividad reciente, entre otras.
+- Análisis de sentimientos: En paralelo, un algoritmo basado en NLP busca identificar los sentimientos del cliente que realiza la llamada, para establecer si se trata de una queja, un requerimiento, una compra, etc.
+
+eVA entrega entonces opciones inteligentes al cliente, y es capaz de tomar una decisión respecto al curso que tome la conversación. Esta decisión entra a interactuar con plataformas del operador en donde se registran, por ejemplo, las ordenes de servicio, los issues, etc.
+
